@@ -1,0 +1,113 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('./background.png');
+  background-size: cover;
+}
+
+#poster {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#tabs button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+#tabs button.active {
+  background-color: #2ecc71;
+  color: #fff;
+  font-weight: bold;
+}
+
+#tabs button:hover {
+  background-color: #e6e6e6;
+}
+
+#content {
+  position: relative;
+  margin-top: 20px;
+}
+
+#content p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#content li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #0db0c6;
+}
+scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #0db0c6;
+}
+
+#exit-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  color: #f00; /* red color */
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+#bef button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}

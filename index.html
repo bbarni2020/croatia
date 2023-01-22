@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Croatian Experience</title>
+  <link rel="icon" type="image/x-icon" href="croatia.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <script>
+        window.onload = function(){
+        alert("Hello!\nAfter you read my poster, click the red X button (in the top right corner)\nTo read the poster click the OK button!");
+    }
+  </script>
+</head>
+<body>
+  <div id="poster">
+    <button id="exit-btn" onclick="exit();">&#10006;</button>
+    <h1>Croatia - the country of the sea</h1>
+    <div id="bef" class="hidden">
+      <h3>If you want to visit Croatia, my opinion is to visit in the summer because swimming in the sea is the best feeling in the world.
+        I tried swimming in the 12°C sea. It wasn't too good.
+        </h3>
+        <p>Thanks for reading the poster! Click Exit for exit!</p>
+        <button onclick="location.reload();">Exit</button>
+    </div>
+    <div id="bevezetes">
+      <h3>Have you ever touched the sand and heard the seagulls? Well, if not, then visit Croatia!</h3>
+    </div>
+    <div id="tabs">
+      <button id="sights" onclick="displayTab('sights')">Sights</button>
+      <button id="sounds" onclick="displayTab('sounds')">Sounds</button>
+      <button id="tastes" onclick="displayTab('tastes')">Tastes</button>
+      <button id="feelings" onclick="displayTab('feelings')">Feelings</button>
+    </div>
+    <div id="content">
+      <div id="sights-content" class="hidden">
+        <p>In Croatia, there is the sea with beautiful sandy beaches. You can see seagulls flying around. If you don't like the sea, you can find a mountain near you and you can hike or bike up to it.</p> <h5>Like this:</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1674388166546!6m8!1m7!1sCAoSLEFGMVFpcE1Ma01nWGFNRXZiT2hLUU1VLThrRm5LazRYYm1MMWJ0T3dvbjFO!2m2!1d45.068795!2d13.6274278!3f149.48092006823862!4f7.195184645041678!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>From the top of the mountain, you will see the sea with the beaches, little islands and many people playing volleyball or building sandcastles. It has a feeling. </p>
+        <p>But if you're not interested in the sight of the sea, you can take a walk in the old town of the city. For example, Rovinj has a wonderful old town. The old town is on a little mountain, and in the middle of the old town, there is an old church where you have an awesome view.</p>
+        <h5>This is Rovinj's Old Town:</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1674387946749!6m8!1m7!1sCAoSLEFGMVFpcE5nRjlUWkVmQU1kTmg1Sk9oaVFKRmFTbGxfRXhCVVVpaUZhZF9o!2m2!1d45.08926111619335!2d13.6408520707693!3f226.41274752204532!4f-4.862704143798112!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5>The view from the church:</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1674388242734!6m8!1m7!1sCAoSLEFGMVFpcE9HMWJxYmhKRlFUWk1NT1YyM2traDBja2s1TmtMcC1yTFY2T0Zs!2m2!1d45.08347697307516!2d13.63116741916382!3f104.81294923598485!4f5.971119330794892!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+      <div id="sounds-content" class="hidden">
+        <p>Have you ever "heard a seagull"? Yeah, I have, and I really liked it. When you're under a beach umbrella, what do you hear?</p>
+        <img src="img.png" alt="Beach umbrella" width="500" height="500">
+        <p>Maybe the sound of the seagulls? Or the sound of the waves? Or the sound of the people around you? When I think of it, I hear all of these sounds. Plus, the old town sound in the evening when we go to have dinner.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3qw_4b8JGrE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h6>Stop playing the video before you continue!</h6>
+      </div>
+      <div id="tastes-content" class="hidden">
+        <p>They often eat cevapcici and pleskavica in Croatia. Pleskavica is a meat (like hamburger meat), but the pleskavica made by 20% pork, 40% beef and 40% other meats.</p>
+        <img src="ples.jpg" alt="Pleskavica" width="500" height="500">
+        <p>I have eaten it twice, but I don't like it. Some people really like it.
+        </br>In a normal restaurant in the menu, you can find: Italian foods (like pastas and pizzas); some Asian foods (WOK pastas); "foods from the sea" (fishes, sea crayfish); or pleskavica and cevapcici.
+        After a nice meal in Croatia, you need to find an ice cream shop (for dessert). Their ice creams are the best. And once in your life, you need to try the Banana Split.</p>
+        <img src="banana.jpg" alt="Banana Split" width="500" height="500">
+      </div>
+      
+      <div id="feelings-content" class="hidden">
+        <p>I felt relaxed all the time in Croatia. I felt wonder - with its crystal clear waters and picturesque beaches.</p>
+        <img src="Sea.JPG" alt="Sea" width="70%" height="70%"></br>
+        <p> Wonder with the natural history of the country. And also wonderful because of the beautiful panoramas, animals, plants, beaches, and the sea.</p>
+        <img src="flower.JPG" alt="Flower" width="70%" height="70%">
+
+      </div>     
+    </div>
+    </body>
+</html>
